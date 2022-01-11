@@ -1,0 +1,26 @@
+#singleBook .carousel.carousel-slider{
+	box-shadow: 2px 2px 5px #000;
+}
+#singleBook ul.thumbs.animated{
+	padding: 0;
+}
+#singleBook .carousel.carousel-slider{
+	margin-top: 0;
+	padding: 0;
+	border-radius: 0;
+}
+#singleBook .carousel{
+	background-color: #304d73;
+	border-radius: 15px;
+	margin-top: 50px;
+	padding: 15px;
+}
+.border-radius-15{
+	border-radius: 15px;
+}
+#singleBook ul, .carousel .thumbs-wrapper{
+	margin: 0 !important;
+}
+.carousel .thumb{
+	border: none;
+}

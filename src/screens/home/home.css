@@ -1,0 +1,39 @@
+/* .carousel{
+    display: flex;
+    justify-content: center;
+}
+.carousel .control-dots{
+    width: 85%;
+    bottom: -50px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 5px #000;
+}
+.carousel.carousel-slider{
+    overflow: visible;
+}
+.text-304d73{
+	color: #304d73 !important;
+} */
+.carousel .control-dots{
+    width: 33.33%;
+    height: 33.33%;
+    right: 0;
+    display: flex;
+    bottom: 30px;
+
+}
+@media screen and (max-width: 1024px){
+    .carousel .control-dots{
+        width: 100%;
+        height: auto;
+        right: auto;
+        bottom: -70px;
+        justify-content: center;
+
+    }
+    .carousel.carousel-slider{
+        overflow: visible;
+    }
+}

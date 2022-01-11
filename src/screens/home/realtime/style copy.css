@@ -1,0 +1,66 @@
+.icon-textbox{
+    background: url(./text.svg) no-repeat;
+    background-size: cover;
+    margin-top: 2px;
+    width: 20pt;
+    height: 20pt;
+    display: block;
+    transform: scale(0.7);
+}
+.toolIcon.active, .toolIcon:hover {
+    color: #007bff;
+    transform: scale(1.4);
+    transition: 0.3s ease;
+
+}
+.toolIcon.tool-static:hover{
+    color: white;
+    transform: scale(1.4);
+    transition: 0.3s ease;
+}
+.icon-textbox.active, .icon-textbox:hover{
+    background: url(./text-hover.svg)no-repeat;
+}
+.toolIcon.active > .tooltiptext{
+    visibility: visible;
+    transition: 0.3s ease;
+
+}
+
+.toolIcon {
+    position: relative;
+    transition: 0.3s ease;
+}
+  
+  .toolIcon .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 20;
+    top: 150%;
+    left: 50%;
+    margin-left: -50px;
+    transition: 0.3s ease;
+
+  }
+  
+  .toolIcon .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+  }
+  
+  .toolIcon:hover .tooltiptext {
+    visibility: visible;
+    
+  }

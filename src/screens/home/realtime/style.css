@@ -1,0 +1,9 @@
+.animated-flash > *{
+  animation: flash linear 3s infinite;
+}
+
+@keyframes flash {
+  0% {opacity:0.2}
+  50% {opacity: 0.6}
+  100% {opacity: 0.2}
+}
